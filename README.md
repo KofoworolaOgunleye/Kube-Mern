@@ -31,5 +31,8 @@ run ps -ef | grep docker@127.0.0.1
 it should give an output similar to this: 501 53910 53883   0  7:31PM ttys004    0:00.02 ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -N docker@127.0.0.1 -p 65105 -i /Users/xxx/.minikube/machines/minikube/id_rsa -L 59452:10.100.87.17:8081
 
 copy the tunnel port, 59452, open your boswer and paste 127.0.0.1:59452
+
+other commands:
+
 kubectl delete deployment --all
 kubectl delete secret --all
