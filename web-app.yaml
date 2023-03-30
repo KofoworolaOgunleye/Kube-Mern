@@ -50,4 +50,4 @@ spec:
     - protocol: TCP
       port: 8081 #can be any port
       targetPort: 8081  #deployment container port
-      nodePort: 30100 #nodeport work with specific range 30000-32767 not just any port
+      nodePort: 30100 #nodeport work with specific range 30000-32767 not just any port 
